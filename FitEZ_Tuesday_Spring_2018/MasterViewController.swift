@@ -17,7 +17,7 @@ class MasterViewController: UITableViewController {
     func initializeArray() {
    
         //Rest API EndPoint to receive Exercices JSON
-        let jsonURLString = "https://api.myjson.com/bins/h0rey"
+        let jsonURLString = "https://api.myjson.com/bins/dzny2"
         var jsonURL:URL = URL(string: jsonURLString)!
         
         let jsonUrlData = try? Data (contentsOf: jsonURL)
@@ -44,37 +44,9 @@ class MasterViewController: UITableViewController {
             
                 ExerciseArray.append(exercise)
             }
-            
-            
-        
         
         }
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-//        let ex1 = Exercise(exCategory: "Core", exName: "Situps", exInstruction: "Lay on your back. and then reach out to a bottle of water on the table")
-//        ExerciseArray.append(ex1)
-//        let ex2 = Exercise(exCategory: "Insanity", exName: "Week1", exInstruction: "Transform your body in 60 days with the most intense workout program ever put on DVD. Shaun T will push you past your limits to get the hardest body you've ever had.")
-//        ExerciseArray.append(ex2)
-//        let ex3 = Exercise(exCategory: "Upper Body", exName: "Bench Press", exInstruction: "Lie on our back and lift bar.")
-//        ExerciseArray.append(ex3)
-//        let ex4 = Exercise(exCategory: "Lower Body", exName: "Squats", exInstruction: "Bend your knees but not over your toes. and then lift the watwr bottle from the ground")
-//        ExerciseArray.append(ex4)
-//        let ex5 = Exercise(exCategory: "Cardio", exName: "Zumba", exInstruction: "Dance and then dance some more.")
-//        ExerciseArray.append(ex5)
-    
     }
     
     override func viewDidLoad() {
@@ -135,7 +107,7 @@ class MasterViewController: UITableViewController {
         cell.imageView!.layer.cornerRadius = 10
         cell.imageView!.clipsToBounds = true
         // style the table view
-        tableView.separatorColor = UIColor.brown
+        tableView.separatorColor = UIColor.lightGray
         tableView.tableFooterView = UIView(frame: CGRect(x:0.0, y:0.0, width:0.0, height:0.0))
         return cell
     

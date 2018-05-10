@@ -10,15 +10,13 @@ import Foundation
 class Exercise {
     var ExerciseCategory:String = ""
     var ExerciseName:String = ""
-    var ExerciseInstructions:String = ""
     var ExerciseImageName:String = ""
     var ExerciseID:Int32 = 0
     var ExerciseURL:String = ""
     
-    init(exCategory:String, exName:String, exInstruction:String) {
+    init(exCategory:String, exName:String) {
         ExerciseName = exName
         ExerciseCategory = exCategory
-        ExerciseInstructions = exInstruction
     }
 }
 

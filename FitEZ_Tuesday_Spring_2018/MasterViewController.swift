@@ -17,7 +17,7 @@ class MasterViewController: UITableViewController {
     func initializeArray() {
    
         //Rest API EndPoint to receive Exercices JSON
-        let jsonURLString = "http://www.protogic.com/universityservice/service.svc/AllExercises"
+        let jsonURLString = "https://api.myjson.com/bins/h0rey"
         var jsonURL:URL = URL(string: jsonURLString)!
         
         let jsonUrlData = try? Data (contentsOf: jsonURL)
@@ -32,13 +32,12 @@ class MasterViewController: UITableViewController {
             let Exersices = dictionary["Exercises"]! as! [[String:AnyObject]]
             
             for index in 0...Exersices.count - 1 {
-                var exercise:Exercise = Exercise(exCategory:"", exName:"", exInstruction: "")
+                var exercise:Exercise = Exercise(exCategory:"", exName:"")
                 
                 var selectedExercise = Exersices[index]
                 
                 exercise.ExerciseName = selectedExercise["ExerciseName"] as! String
                 exercise.ExerciseCategory = selectedExercise["ExerciseCategory"] as! String
-                exercise.ExerciseInstructions = selectedExercise["ExerciseInstructions"] as! String
                 exercise.ExerciseID = selectedExercise["ExerciseID"] as! Int32
             exercise.ExerciseImageName = selectedExercise["ExerciseImageName"] as! String
            exercise.ExerciseURL = selectedExercise["ExerciseURL"] as! String

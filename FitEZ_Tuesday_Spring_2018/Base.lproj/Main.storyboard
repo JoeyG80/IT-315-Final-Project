@@ -89,7 +89,6 @@
                     <connections>
                         <outlet property="detailDescriptionLabel" destination="0XM-y9-sOw" id="deQ-Na-JPF"/>
                         <outlet property="imgImage" destination="fcI-3K-f8w" id="QXM-UU-ckT"/>
-                        <outlet property="lblInstructions" destination="Fsh-Hg-2jc" id="Qov-jJ-jQL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJe-Yq-33r" sceneMemberID="firstResponder"/>

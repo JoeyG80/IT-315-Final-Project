@@ -11,7 +11,6 @@ import UIKit
 class DetailViewController: UIViewController {
 
     @IBOutlet weak var imgImage: UIImageView!
-    @IBOutlet weak var lblInstructions: UITextView!
     
     @IBOutlet weak var detailDescriptionLabel: UILabel!
 
@@ -30,7 +29,6 @@ class DetailViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         configureView()
         detailDescriptionLabel.text = destValue?.ExerciseName
-        lblInstructions.text = destValue?.ExerciseInstructions
         let imgURL = URL(string:"http://www.protogic.com/images/" + (destValue?.ExerciseImageName)!)
         let dataBytes = try? Data(contentsOf: imgURL!)
         let img = UIImage(data: dataBytes!)

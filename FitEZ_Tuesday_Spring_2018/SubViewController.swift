@@ -12,7 +12,6 @@ import WebKit
 class SubViewController : UIViewController {
    
     @IBOutlet weak var webView: WKWebView!
-    @IBOutlet weak var lblInstrctions: UILabel!
     
     
     override func viewDidLoad() {
@@ -30,7 +29,7 @@ class SubViewController : UIViewController {
         }
     }
     
-    var justThinking:Exercise = Exercise(exCategory: "", exName: "", exInstruction: "");
+    var justThinking:Exercise = Exercise(exCategory: "", exName: "");
     
     
     

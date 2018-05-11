@@ -15,6 +15,7 @@
 		1CE27CE920744CAC0077D59B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE27CE820744CAC0077D59B /* Assets.xcassets */; };
 		1CE27CEC20744CAC0077D59B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE27CEA20744CAC0077D59B /* LaunchScreen.storyboard */; };
 		1CE27CF4207452630077D59B /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE27CF3207452630077D59B /* Exercise.swift */; };
+		4C52A63C20A50A7F00B038F6 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C52A63B20A50A7F00B038F6 /* CalculatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1CE27CEB20744CAC0077D59B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CE27CED20744CAC0077D59B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CE27CF3207452630077D59B /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		4C52A63B20A50A7F00B038F6 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				1CE27CED20744CAC0077D59B /* Info.plist */,
 				1CE27CF3207452630077D59B /* Exercise.swift */,
 				1C83BED72086CE2000C49F1E /* SubViewController.swift */,
+				4C52A63B20A50A7F00B038F6 /* CalculatorViewController.swift */,
 			);
 			path = FitEZ_Tuesday_Spring_2018;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				1CE27CF4207452630077D59B /* Exercise.swift in Sources */,
 				1C83BED82086CE2000C49F1E /* SubViewController.swift in Sources */,
 				1CE27CE220744CAA0077D59B /* MasterViewController.swift in Sources */,
+				4C52A63C20A50A7F00B038F6 /* CalculatorViewController.swift in Sources */,
 				1CE27CE020744CAA0077D59B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

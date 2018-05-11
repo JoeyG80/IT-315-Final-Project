@@ -13,6 +13,13 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var imgImage: UIImageView!
     
     @IBOutlet weak var detailDescriptionLabel: UILabel!
+    
+    @IBAction func OnGoButton(_ sender: Any) {
+        performSegue(withIdentifier: "calcSegue", sender: self)
+    }
+    
+
+    
 
 
     func configureView() {

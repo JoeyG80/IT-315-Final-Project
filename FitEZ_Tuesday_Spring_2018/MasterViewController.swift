@@ -17,7 +17,7 @@ class MasterViewController: UITableViewController {
     func initializeArray() {
    
         //Rest API EndPoint to receive Exercices JSON
-        let jsonURLString = "https://api.myjson.com/bins/dzny2"
+        let jsonURLString = "https://api.myjson.com/bins/ayul2"
         var jsonURL:URL = URL(string: jsonURLString)!
         
         let jsonUrlData = try? Data (contentsOf: jsonURL)
@@ -99,7 +99,7 @@ class MasterViewController: UITableViewController {
         cell.textLabel!.text = object.ExerciseName
         cell.detailTextLabel!.text  = object.ExerciseCategory
         // Add images to the Cell
-        let imgURL = URL(string:"http://www.protogic.com/images/" + (object.ExerciseImageName))
+        let imgURL = URL(string:"http://mason.gmu.edu/~jgreenf2/Pictures/" + (object.ExerciseImageName))
         let dataBytes = try? Data(contentsOf: imgURL!)
         let img = UIImage(data: dataBytes!)
         cell.imageView?.image = img

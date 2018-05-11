@@ -36,7 +36,7 @@ class DetailViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         configureView()
         detailDescriptionLabel.text = destValue?.ExerciseName
-        let imgURL = URL(string:"http://www.protogic.com/images/" + (destValue?.ExerciseImageName)!)
+        let imgURL = URL(string:"http://mason.gmu.edu/~jgreenf2/Pictures/" + (destValue?.ExerciseImageName)!)
         let dataBytes = try? Data(contentsOf: imgURL!)
         let img = UIImage(data: dataBytes!)
         imgImage?.image = img

@@ -1,9 +1,12 @@
 //
 //  CalculatorViewController.swift
-//  FitEZ_Tuesday_Spring_2018
+//  This App is developed as an education project
+//  Certain materials are included under the fair use exemption of the U.S. Copyright law
+//  and have been prepared according to the multimedia fair use guidelines and are restricted
+//  from further use
 //
-//  Created by user134481 on 5/10/18.
-//  Copyright © 2018 Almeida Org. All rights reserved.
+//  Created by Joseph Greenfield.
+//
 //
 
 import UIKit

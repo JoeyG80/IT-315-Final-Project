@@ -142,7 +142,7 @@
                         <viewLayoutGuide key="safeArea" id="VUw-jc-0yf"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Exercise Detail" id="mOI-FS-AaM"/>
+                    <navigationItem key="navigationItem" title="Quilt Detail" id="mOI-FS-AaM"/>
                     <connections>
                         <outlet property="detailDescriptionLabel" destination="0XM-y9-sOw" id="deQ-Na-JPF"/>
                         <outlet property="imgImage" destination="fcI-3K-f8w" id="QXM-UU-ckT"/>
